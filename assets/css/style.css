@@ -1,0 +1,132 @@
+@import url(./root.css);
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none !important;
+    text-decoration: none !important;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'ModernoFBComp';
+    src: url(../fonts/modernofbcomp-semibold.otf);
+}
+.ff_ModernoFBComp{
+    font-family: "ModernoFBComp";
+}
+@font-face {
+    font-family: 'PERTIBD';
+    src: url(../fonts/Perpetua\ Titling\ MT\ Std\ Regular.otf);
+}
+.ff_Perpetua{
+    font-family: "PERTIBD";
+}
+.ff_noto{
+    font-family:"Noto Serif", serif;
+}
+.body_1{
+    background-image: url(../images/Body_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bg_1{
+background: #F7F2E4;
+}
+.container{
+    max-width: 1140px;
+}
+
+.red_box{
+    border: 1px solid var(--color-red);
+    border-radius: 5px;
+}
+.yellow_box{
+    border: 1px solid var(--color-yellow);
+    border-radius: 5px;
+}
+.btn_1{
+    padding: 12px 16px;
+    background: var(--color-yellow);
+    border: 2px solid var(--color-black);
+}
+
+
+
+
+
+.mx_31{
+    margin-right: 31px;
+    margin-left: 31px;
+}
+.mr_20{
+    margin-right: 20px;
+}
+.py_14{
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+.pb_15{
+    padding-bottom: 15px;
+}
+.pr_178{
+    padding-right: 178px;
+}
+.pr_52{
+    padding-right: 52px;
+}
+.pl_43{
+    padding-left: 44px;
+}
+.py_86{
+    padding-top: 86px;
+    padding-bottom: 86px;
+}
+.py_90{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.pt_67{
+    padding-top: 67px;
+}
+.pb_64{
+    padding-bottom: 64px;
+}
+
+
+
+
+
+.gap_7{
+    gap: 7px;
+}
+.gap_18{
+    gap: 18px;
+}
+.gap_55{
+    gap: 55px;
+}
+
+
+
+.w_475{
+    max-width: 475px;
+    width: 100%;
+}
+
+
+
+
+.border_left{
+    border-left: 2px solid var(--color-black);
+}
+.border_right{
+    border-right: 2px solid var(--color-black);
+}
+.border_y{
+    border-top: 2px solid var(--color-black);
+    border-bottom: 2px solid var(--color-black);
+}
+.read_more{
+    text-decoration: underline !important;
+}

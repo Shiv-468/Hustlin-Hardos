@@ -92,6 +92,9 @@ background: #F7F2E4;
 .pb_64{
     padding-bottom: 64px;
 }
+.pt_13{
+    padding-top: 13px;
+}
 
 
 
@@ -99,6 +102,9 @@ background: #F7F2E4;
 
 .gap_7{
     gap: 7px;
+}
+.gap_11{
+    gap: 11px;
 }
 .gap_18{
     gap: 18px;
@@ -117,6 +123,7 @@ background: #F7F2E4;
 
 
 
+
 .border_left{
     border-left: 2px solid var(--color-black);
 }
@@ -129,4 +136,7 @@ background: #F7F2E4;
 }
 .read_more{
     text-decoration: underline !important;
+}
+.slider_card{
+    padding: 48px 25px 46px;
 }

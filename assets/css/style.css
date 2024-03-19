@@ -29,7 +29,7 @@
     font-family: "Noto Serif Display", serif;
 }
 .body_1{
-    background-image: url(../images/25thFeb.png);
+    background-image: url(../images/25thFeb.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -51,11 +51,19 @@
     padding: 12px 16px;
     background: var(--color-yellow);
     border: 2px solid var(--color-black);
+    transition: all 300ms linear;
 }
-
-
-
-
+.btn_1:hover{
+    background: transparent;
+    border: 2px solid var(--color-yellow);
+    color: var(--color-yellow);
+}
+.h_476{
+    min-height: 346px;
+}
+.text_shadow{
+    -webkit-text-stroke: 1px var(--color-black);
+}
 
 .mx_31{
     margin-right: 31px;
@@ -70,6 +78,9 @@
 }
 .pb_15{
     padding-bottom: 15px;
+}
+.pb_47{
+    padding-bottom: 47px;
 }
 
 .pr_52{
@@ -87,10 +98,10 @@
     padding-bottom: 49px;
 }
 .pt_67{
-    padding-top: 67px;
+    padding-top: 47px;
 }
 .pb_64{
-    padding-bottom: 64px;
+    padding-bottom: 44px;
 }
 .pt_13{
     padding-top: 13px;
@@ -130,10 +141,6 @@
     padding-top: 10px;
 }
 
-
-
-
-
 .gap_7{
     gap: 7px;
 }
@@ -146,8 +153,6 @@
 .gap_55{
     gap: 55px;
 }
-
-
 .w_407{
     max-width: 407px;
 }
@@ -158,12 +163,9 @@
 .w_379{
     max-width: 379px;
 }
-
-
-
-
-
-
+.cursor_pointer{
+    cursor: pointer;
+}
 .border_left{
     border-left: 2px solid var(--color-black);
 }
@@ -175,7 +177,6 @@
 }
 .border_top{
     border-top: 2px solid var(--color-black);
-
 }
 .read_more{
     text-decoration: underline !important;
@@ -198,16 +199,21 @@
     border: 2px solid var(--color-black);
     margin-top: 35px;
 }
+.btn_2:hover{
+    background: transparent;
+    border: 2px solid var(--color-yellow);
+    color: var(--color-yellow);
+}
 .slider_3img{
-    background-image: url(../images/Slider_3img.png);
+    background-image: url(../images/Slider_3img.webp);
     background-position: center;
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
  
 }
 .slider3_Text{
-    padding: 26.5px 31.5px;
-    max-width: 570px;
+    padding: 26.5px 33.5px;
+    /* max-width: 570px; */
     width: 100%;
 }
 .Ellipse1{
@@ -218,13 +224,14 @@
     display: flex !important;
 }
 
-.slider_3 .slick-slide {
+.slick-slide {
     height: inherit !important;
     display: flex !important;
 }
 
 .slick-slide>div {
     display: flex;
+    width: 100%;
 }
 .slider_2 .slick-track {
     display: flex !important;
@@ -269,7 +276,6 @@
     max-width: 460px;
 }
 
-
 .main-timeline {
     position: relative;
 }
@@ -278,12 +284,12 @@
     content: "";
     position: absolute;
     width: 14px;
-    background-image: url(../images/Line_81.png);
+    background-image: url(../images/Line_81.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     top: 2%;
-    bottom: 5%;
+    bottom: 2%;
     left: 50%;
     z-index: 0;
     margin-left: -3px;
@@ -311,18 +317,14 @@
     z-index: 1;
 }
 .left1 {
-    padding: 0px 40px 40px 36px;
+    padding: 0 0 40px 36px;
 }
 .left2 {
-    padding: 0px 40px 40px 36px;
+    padding: 0 0 40px 36px;
 }
 .left3 {
-    padding: 0px 40px 40px 36px;
+    padding: 0 0 40px 36px;
 }
-.left4{
-    padding: 0px 40px 40px 36px;
-}
-
 
 
 .right {
@@ -343,7 +345,6 @@
     padding-top: 26px;
     padding-bottom: 38px;
 }
-
 
 .accordion-item.active {
     height: unset;
@@ -368,24 +369,27 @@
     padding-top: 16px;
     padding-bottom: 24px;
 }
+.menuicon {
+    display: none;
+}
+
+
+
 @media (min-width:576px) {
+    .pt_67{
+        padding-top: 67px;
+    }
+    .pb_64{
+        padding-bottom: 64px;
+    }
     .gap_18{
         gap: 18px;
     }
-    .py_90{
-        padding-top: 90px;
-        padding-bottom: 90px;
-    }
-    .py_89{
-        padding-top: 89px;
-        padding-bottom: 89px;
-    }
-    .py_86{
-        padding-top: 86px;
-        padding-bottom: 86px;
-    }
+   
+   
     .main-timeline::after{
         top: 5%;
+        bottom: 6%;
     }
     .accordion-item {
         height: 107px;
@@ -406,14 +410,15 @@
         padding: 48px 25px 46px;
     }
     .slider3_Text{
-        padding: 36.5px 31.5px;
-    }
+        padding: 56.5px 31.5px;
+    } 
 }
 
 @media  (max-width: 768px) {
     .main-timeline{
         padding-left: 12px;
     }
+
   
     .main-timeline::after {
         left: 42px;
@@ -443,7 +448,22 @@
 }
 @media (min-width:768px) {
     .slider3_Text{
-        padding: 56.5px 81.5px;
+        padding: 56.5px 51.5px;
+    } 
+    .py_90{
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+    .py_89{
+        padding-top: 89px;
+        padding-bottom: 89px;
+    }
+    .py_86{
+        padding-top: 86px;
+        padding-bottom: 86px;
+    }
+    .h_476{
+        min-height: 476px;
     }
     .pr_178{
         padding-right: 178px;
@@ -497,25 +517,81 @@
     }
 }
 
-
-
-
-
-
 @media (min-width:992px) {
     .w_438{
         max-width: 438px;
     }
+    .slider3_Text{
+        padding: 56.5px 81.5px;
+    } 
 }
+@media(max-width: 992px) {
+    .menulist {
+        position: fixed;
+        right: -100%;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../images/25thFeb.webp);
+        width: 100%;
+        height: 100vh;
+        gap: 32px;
+        flex-direction: column;
+        z-index: 5;
+        transition: all 300ms ease-in-out;
+    }
 
-@media (max-width:992px) {
+
+
+    .menulist ul {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .menulist.active {
+        right: 0;
+    }
+
+    .menuicon {
+        display: block !important;
+        z-index: 6;
+    }
+
+    .menuicon.active .bar2 {
+        opacity: 0;
+        transform: translateX(-10px);
+    }
+
+    .menuicon.active .bar1 {
+        transform: translateY(9px) rotate(45deg);
+    }
+
+    .menuicon.active .bar3 {
+        transform: translateY(-9px) rotate(-45deg);
+    }
+    .max_lg_border_0{
+        border: 0;
+    }
+
+    .bar1,
+    .bar2,
+    .bar3 {
+        display: block;
+        width: 29px;
+        height: 3px;
+        margin: 6px auto;
+        transition: all 0.3s ease-in-out;
+        background-color: var(--color-black);
+    }
     .reporer1_bordeb{
         border-bottom: 2px solid var(--color-black);
     }
     .max_lg_right{
         border-right: 2px solid var(--color-black) !important;
     }
-
 }
 
 @media (min-width:1200px) {

@@ -140,7 +140,7 @@ const menuicon = document.querySelector(".menuicon");
 const menulist = document.querySelector(".menulist");
 menuicon.addEventListener("click", mobileMenu);
 const Navlink = document.querySelectorAll(".nav-link");
-menulist.forEach(e => e.addEventListener("click", () => {
+Navlink.forEach(j => j.addEventListener("click", () => {
     menuicon.classList.toggle("active");
     document.body.classList.remove("overflow-hidden");
     menulist.classList.toggle("active");

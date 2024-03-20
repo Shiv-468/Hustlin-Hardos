@@ -119,22 +119,6 @@ minus.addEventListener("click", () => {
         counting.innerHTML = counting.innerHTML - 1;
     }
 });
-const accordion = document.querySelectorAll(".accordion-item")
-accordion.forEach((e) => {
-    e.addEventListener("click", () => {
-        e.classList.toggle("active");
-        var isactive = document.querySelector(".accordion");
-        accordion.forEach(e => {
-            e.classList.remove("active")
-        })
-        if (!isactive) {
-            e.classList.toggle("active")
-
-        }
-
-    })
-
-});
 
 var countDownDate = new Date("Apr 27, 2024 18:37:25").getTime();
 var x = setInterval(function () {

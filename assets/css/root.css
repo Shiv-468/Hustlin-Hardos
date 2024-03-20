@@ -8,7 +8,6 @@
     --fs-3xl: 44px;
     --fs-4xl: 40px;
     --fs-5xl: 100px;
-    --ff-accordion: 17px;
     --color-red: #FF0000;
     --color-yellow: #FFD600;
     --color-white: #FFFFFF;
@@ -54,9 +53,7 @@
     font-size: var(--fs-logo);
 }
 
-.ff-accordion {
-    font-size: var(--ff-accordion);
-}
+
 
 .color-red {
     color: var(--color-red);
@@ -164,7 +161,6 @@
         --fs-3xl: 72px;
         --fs-4xl: 60px;
         --fs-5xl: 157px;
-        --ff-accordion: 24px;
     }
 
     .lh_39 {
